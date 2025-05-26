@@ -1,0 +1,158 @@
+.justify-evenly{
+    justify-content: space-evenly !important    ;
+}
+
+.navbar .navbar-brand{
+    color: white;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.scrolled-navbar{
+     /* background: linear-gradient(45deg, black, transparent); */
+     background-color: black;
+     transform: translate();
+}
+.banner-container{
+    position: relative;
+}
+.banner-text{
+top: 35%;       
+right: 70%;
+color: white;
+}
+.banner-sm-text{
+top: 45%;
+color: white; 
+}
+.navbar-expand-lg{
+        color: black;
+}
+.navbar-toggler-icon{
+   background-color: white;
+}
+.p_50{
+    padding: 50px 0px !important;
+}
+.mt_-10{
+    margin-top: -10px;
+}
+.bg_orange{
+    background-color:#FF7A00;
+}
+.bg_transparent{
+    background-color: transparent;
+}
+.banner-background{
+    background-image: url(/images/banner-bg.jpg);
+     background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+}
+.skill-box{
+    border: 12px solid grey;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+.skill-box-2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg_orange-circle{
+      background: conic-gradient(
+    rgb(252, 172, 0) 0% 93%, 
+    transparent 93% 100%
+  );
+}
+.bg_green{
+      background: conic-gradient(
+    rgb(29, 252, 0) 0% 75%, 
+    transparent 75% 100%
+  );
+}
+.bg_blue-circle{
+      background: conic-gradient(
+    rgb(0, 160, 252) 0% 55%, 
+    transparent 55% 100%
+  );
+}
+.bg_violet-circle{
+      background: conic-gradient(
+    rgb(164, 0, 252) 0% 80%, 
+    transparent 80% 100%
+  );
+}
+.skill-box-circle{
+    position: relative;
+    display: flex;
+}
+.skill-inner-circle{
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.w_75{
+    width: 75px !important;
+  
+}
+  .skill-box-circle{
+    justify-content: flex-end !important;
+}
+.bc_orange{
+ color: #FF7A00 !important;
+}
+.text_100{
+    font-size:75px;
+    color: #FF7A00 !important;
+}
+@media only screen and (max-width:991px){
+    .skill-box-circle{
+    justify-content: center !important;
+}
+.skills-text{
+    align-items: center !important;
+}
+}
+.social-icon{
+    color: white;
+}
+.social-icon:hover{
+    color: #FF7A00;
+    cursor: pointer;
+}
+.bg-img-background-2{
+    background: url(/images/bg.jpg);
+}
+.bg-img-background-1{
+    background: url(images/bg2.png);
+}
+.text-white-50{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+  .portfolio-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
